@@ -168,13 +168,26 @@ path.leaflet-interactive:focus{stroke:rgba(168,205,217,0.15)!important;stroke-wi
   /* Layout */
   .map-wrap{grid-template-columns:1fr;grid-template-rows:auto 1fr;padding:.5rem}
   .grid2,.grid3{grid-template-columns:1fr}
-  /* KPI row */
-  .kpi-row{flex-direction:column;gap:.5rem;padding:.5rem}
-  .kpi{flex:none;width:100%}
-  /* Map controls - collapsible on mobile */
-  .map-ctrl{max-height:200px;overflow-y:auto}
+  /* Header - smaller on mobile */
+  .hdr{height:44px;padding:0 .75rem;gap:.5rem}
+  .hdr-icon{width:28px;height:28px}
+  .hdr-brand h1{font-size:.8rem}
+  .hdr-brand p{display:none}
+  /* KPI row - 2 per row compact */
+  .kpi-row{flex-direction:row;flex-wrap:wrap;gap:.4rem;padding:.4rem .5rem}
+  .kpi{flex:1;min-width:calc(50% - .4rem);padding:.4rem .6rem}
+  .kpi-val{font-size:.95rem}
+  .kpi-label{font-size:.52rem}
+  .kpi-unit{font-size:.52rem}
+  /* Map controls - smaller */
+  .map-ctrl{max-height:160px;overflow-y:auto}
+  .ctrl-hd{padding:.4rem .6rem;font-size:.58rem}
+  .ctrl-body{padding:.5rem .6rem;gap:.6rem}
+  .sbtn{font-size:.58rem;padding:.28rem .5rem}
   /* Map box fills screen */
   .map-box{min-height:300px}
+  /* Nav tabs smaller */
+  .tab{font-size:.6rem;padding:.5rem 0}
 }
 
 @media(max-width:600px){
