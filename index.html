@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Assessing the Impact of Migratory WildebeestGrazing on Grassland Vegetation Productivity and Soil Organic Carbon Sequestration in the Mara-Serengeti Ecosystem.</title>
+<title>Assessing the Impact of Migratory Wildebeest Grazing on Grassland Vegetation Productivity and Soil Organic Carbon Sequestration in the Mara-Serengeti Ecosystem.</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@300;400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
@@ -264,7 +264,7 @@ path.leaflet-interactive:focus{stroke:rgba(168,205,217,0.15)!important;stroke-wi
       <div class="kpi-sub">Wildebeest sightings from 2013 to 2018</div>
     </div>
     <div class="kpi s">
-      <div class="kpi-lbl">GRAZED AREA SOC VS UNGRAZED AREAS</div>
+      <div class="kpi-lbl">GRAZED AREAS SOC VS UNGRAZED AREAS</div>
       <div class="kpi-val">51.3 vs 52.4</div>
       <div class="kpi-sub">Mean tonnes of C/ha</div>
     </div>
@@ -388,17 +388,17 @@ path.leaflet-interactive:focus{stroke:rgba(168,205,217,0.15)!important;stroke-wi
       </div>
       <div class="card">
         <div class="card-hd"><span class="card-title">NDVI by Grazing Intensity Class per Season</span></div>
-        <div class="card-insight">&#8220;Wildebeest exhibit forage-tracking behaviour, concentrating grazing pressure in areas of high vegetation productivity.&#8221;</div>
+        <div class="card-insight">&#8220;Wildebeest exhibit forage-tracking behaviour, concentrating grazing pressure in areas of high vegetation growth.&#8221;</div>
         <div class="card-body"><div class="ch"><canvas id="c-ndvi-cls"></canvas></div></div>
       </div>
     </div>
 
     <!-- ACT 2 -->
-    <div class="act-label"><span class="act-num">02</span> Does grazing stimulate vegetation regrowth after rainfall? — Post-grazing vegetation analysis</div>
+    <div class="act-label"><span class="act-num">02</span> Does grazing stimulate vegetation regrowth after rainfall? Post-grazing vegetation analysis</div>
     <div class="grid2">
       <div class="card">
         <div class="card-hd">
-          <span class="card-title">Vegetation Regrowth Response After Grazing — Dry Season</span>
+          <span class="card-title">Vegetation Regrowth Response After Grazing in Dry Season</span>
         </div>
         <div class="card-insight">To investigate whether grazed areas show stimulated vegetation regrowth following rainfall, areas grazed during the Aug–Oct dry season were revisited and their NDVI values measured in the subsequent Nov–Dec short rains season.</div>
         <!-- Methodology diagram -->
@@ -434,7 +434,7 @@ path.leaflet-interactive:focus{stroke:rgba(168,205,217,0.15)!important;stroke-wi
         <div class="card-hd">
           <span class="card-title">Vegetation Regrowth Response After Grazing — Wet Season</span>
         </div>
-        <div class="card-insight">The same approach was applied to the wet season: areas grazed during Jan–Mar (peak wet) were assessed for NDVI in the following Apr–May late wet season to determine whether high-intensity grazing stimulates or suppresses subsequent vegetation productivity.</div>
+        <div class="card-insight">The same approach was applied to the wet season: areas grazed during Jan–Mar (peak wet) were assessed in the following Apr–May late wet season to determine whether grazing had an effect on those areas' vegetation productivity.</div>
         <!-- Methodology diagram -->
         <div class="lag-diagram">
           <div class="lag-node">
@@ -477,13 +477,13 @@ path.leaflet-interactive:focus{stroke:rgba(168,205,217,0.15)!important;stroke-wi
     <div class="act-label" style="margin-top:0"><span class="act-num">03</span> How does vegetation productivity compare between the Protected Area and the Area beyond it?</div>
     <div class="card">
       <div class="card-hd"><span class="card-title">Vegetation Analysis: Protected Area vs Area Beyond Protected Area</span></div>
-      <div class="card-insight">Mean NDVI was compared between the Protected Area and the area beyond its boundary (20km buffer zone) across the dry (Jun–Jul) and wet (Nov–Dec) seasons. This reveals whether conservation status and migratory grazing together amplify vegetation productivity relative to unprotected land.</div>
+      <div class="card-insight">Mean NDVI was compared between the Protected Area and the unprotected area beyond its boundary (20km buffer zone) across the dry (Jun–Jul) and wet (Nov–Dec) seasons. This reveals whether conservation status and migratory grazing together amplify vegetation productivity relative to unprotected land.</div>
       <div class="card-body"><div class="ch" style="height:320px"><canvas id="c-veg-pa"></canvas></div></div>
     </div>
 
     <div class="card" style="margin-top:1rem">
       <div class="card-hd"><span class="card-title">Seasonal Gain (Δ NDVI Dry → Wet)</span></div>
-      <div class="card-insight">The Protected Area shows a seasonal gain of <strong style="color:#8BBF5A">+0.066 NDVI units</strong> (dry → wet), 7× larger than the buffer zone gain of +0.015.</div>
+      <div class="card-insight">The Protected Area shows a seasonal gain of <strong style="color:#8BBF5A">+0.066 NDVI units</strong> (dry → wet), a 4.5x larger than the buffer zone gain of +0.015.</div>
       <div class="card-body"><div class="ch" style="height:260px"><canvas id="c-veg-gain"></canvas></div></div>
     </div>
 
@@ -528,15 +528,15 @@ path.leaflet-interactive:focus{stroke:rgba(168,205,217,0.15)!important;stroke-wi
     <div class="card">
       <div class="card-hd"><span class="card-title">Mean SOC Stock by Area Type (t C/ha)</span></div>
       <div class="card-body"><div class="ch" id="wrap-soc-cls"><canvas id="c-soc-cls"></canvas></div></div>
-      <div class="card-insight" style="margin-top:.75rem">SOC stocks suggest that ungrazed areas marginally exceed grazed areas within the protected area. However, this might be because most of the ungrazed areas were disproportionately located at higher altitudes where SOC is naturally high. Elevation therefore acted as a confounding factor. To isolate the true effect of wildebeest migratory grazing, SOC was normalised against elevation using OLS regression and the residual values showed SOC variation likely explained by grazing.</div>
+      <div class="card-insight" style="margin-top:.75rem">SOC stocks in ungrazed areas marginally exceeded grazed areas within the protected area. However, this might be because most of the ungrazed areas were disproportionately located at higher altitudes where SOC is naturally high. Elevation therefore was found to be a confounding factor. To isolate the true effect of wildebeest grazing, SOC was normalised against elevation using OLS regression and the residual values showed SOC variations likely explained by grazing.</div>
     </div>
 
     <!-- RESIDUAL SOC -->
     <div class="act-label"><span class="act-num">02</span> Residual SOC</div>
     <div class="card">
       <div class="card-hd"><span class="card-title">Mean Residual SOC — Grazed vs Ungrazed</span></div>
-      <div class="card-insight" style="border-left-color:rgba(107,163,190,.5)"><strong style="color:#111827;font-style:normal">What is residual SOC in this context?</strong> It is the difference between an area's observed SOC and the SOC value predicted by terrain alone. A positive residual means in that location more carbon is stored than what can be explained by terrain alone pointing to an additional factor other than terrain.</div>
-      <div class="card-insight">After controlling for elevation, grazed areas show a mean residual SOC of <em>+2.16 t C/ha</em> while ungrazed areas show <em>−3.14 t C/ha</em> — consistent with a positive influence of wildebeest migratory grazing on soil carbon accrual.</div>
+      <div class="card-insight" style="border-left-color:rgba(107,163,190,.5)"><strong style="color:#111827;font-style:normal">What is residual SOC in this context?</strong> It is the difference between an area's observed SOC and the SOC value predicted by elevation of that area alone. A positive residual means in that location more carbon is stored than what can be explained by elevation alone pointing to an additional factor other than terrain.</div>
+      <div class="card-insight">After controlling for elevation, grazed areas showed a mean residual SOC of <em>+2.16 t C/ha</em> while ungrazed areas show <em>−3.14 t C/ha</em> a likely positive influence of wildebeest migratory grazing on soil carbon accrual.</div>
       <div class="card-body"><div class="ch" id="wrap-resid-cls"><canvas id="c-resid-cls"></canvas></div></div>
     </div>
     <div style="height:2rem"></div>
@@ -568,10 +568,10 @@ path.leaflet-interactive:focus{stroke:rgba(168,205,217,0.15)!important;stroke-wi
     </div>
 
     <!-- MULTIVARIATE REGRESSION -->
-    <div class="act-label"><span class="act-num">02</span> Multivariate Regression — Drivers of SOC Variation</div>
+    <div class="act-label"><span class="act-num">02</span> Multivariate Regression on Drivers of SOC Assessed</div>
     <div class="card">
       <div class="card-hd"><span class="card-title">Drivers of SOC — Standardised Effect Sizes</span></div>
-      <div class="card-insight">A multivariate regression model (Adj. R² = 0.452, F = 520.4, p &lt; 2.2×10⁻¹⁶) explained ~45% of SOC variation across the Mara–Serengeti using three predictors. Elevation dominated as the strongest driver, grazing showed a meaningful positive effect, and rainfall had only a weak negative effect. All VIF values &lt; 5, confirming no multicollinearity.</div>
+      <div class="card-insight">A multivariate regression model (Adj. R² = 0.452, F = 520.4, p &lt; 2.2×10⁻¹⁶) explained about 45% of SOC variation across the Mara–Serengeti using three predictors. Elevation dominated as the strongest driver, grazing showed a meaningful positive effect, and rainfall (climate) had only a weak negative effect. All VIF values &lt; 5, confirming no multicollinearity.</div>
       <div class="card-body"><div class="ch" style="height:280px"><canvas id="c-drivers"></canvas></div></div>
     </div>
 
@@ -585,7 +585,7 @@ path.leaflet-interactive:focus{stroke:rgba(168,205,217,0.15)!important;stroke-wi
               <td><strong>Model fit</strong></td>
               <td>How well do all three factors together explain SOC?</td>
               <td>Adj. R² = 0.452<br>F = 520.4<br>p &lt; 2.2×10⁻¹⁶</td>
-              <td>~45% of SOC variation across the Mara–Serengeti is explained by the combined effects of elevation, grazing, and rainfall</td>
+              <td> About 45% of SOC variation across the Mara–Serengeti is explained by the combined effects of elevation, grazing, and rainfall</td>
             </tr>
             <tr>
               <td><strong>Standardised coefficients (β)</strong></td>
